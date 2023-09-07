@@ -1,37 +1,26 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <div className="footer-logo">
-          <img src="/path/to/logo.png" alt="Jaelon Enterprise Limited" />
-        </div>
-        <div className="footer-links">
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/about">About Us</a>
-            </li>
-            <li>
-              <a href="/contact">Contact Us</a>
-            </li>
-            <li>
-              <a href="/terms">Terms of Service</a>
-            </li>
-            <li>
-              <a href="/privacy">Privacy Policy</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="footer-bottom">
         <p>
           &copy; {new Date().getFullYear()} Jaelon Enterprise Limited. All
           rights reserved.
         </p>
+        <ul className="footer-menu">
+          <li className="footer-item">
+            <a href="/privacy">Privacy Policy</a>
+          </li>
+          <li className="footer-item">
+            <a href="/terms">Terms of Service</a>
+          </li>
+          <li className="footer-item">
+            <a href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div className="footer-additional">
+        <p>Contact: info@jaelon.com</p>
+        <p>Address: 123 Jaelon Street, Cityville, Country</p>
       </div>
     </footer>
   );

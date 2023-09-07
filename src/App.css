@@ -1,0 +1,81 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.navbar-logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.active-link {
+  color: #ff0000; /* Apply a different color for active links */
+}
+
+/* Footer.css */
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-item {
+  margin-right: 10px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.footer-additional {
+  margin-top: 20px;
+}
+
+.footer-additional p {
+  margin-bottom: 5px;
+}
