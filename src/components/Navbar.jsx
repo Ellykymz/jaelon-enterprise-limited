@@ -1,10 +1,18 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [isLoggedIn, setIsloggedIn] = useState(true);
+
+  const toggleLoggin = () => {
+    setIsloggedIn(!isLoggedIn);
+  };
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="/path/to/logo.png" alt="Your Company Logo" />
+        <NavLink to="/">
+          <img src="/path/to/logo.png" alt="Your Company Logo" />
+        </NavLink>
       </div>
       <ul className="navbar-menu">
         <li className="navbar-item">
@@ -12,11 +20,7 @@ const Navbar = () => {
             Home
           </NavLink>
         </li>
-        <li className="navbar-item">
-          <NavLink to="/user" activeClassName="active-link">
-            User
-          </NavLink>
-        </li>
+
         <li className="navbar-item">
           <NavLink to="/about" activeClassName="active-link">
             About
@@ -37,6 +41,16 @@ const Navbar = () => {
             Contact
           </NavLink>
         </li>
+        <li className="navbar-item">
+          <NavLink to="/register" activeClassName="active-link">
+            {isLoggedIn ? "JOIN US" : ""}
+          </NavLink>
+        </li>
+        <li className="navbar-item">
+          <NavLink to="/login" activeClassName="active-link">
+            {isLoggedIn ? "Member Login" : ""}
+          </NavLink>
+        </li>
       </ul>
       <ul className="navbar-menu">
         <li className="navbar-item">
@@ -49,6 +63,9 @@ const Navbar = () => {
             Worker
           </NavLink>
         </li>
+        <button type="button" onClick={toggleLoggin}>
+          {isLoggedIn ? "Logout" : "Login"}
+        </button>
       </ul>
     </nav>
   );

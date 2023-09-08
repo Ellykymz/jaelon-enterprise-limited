@@ -1,0 +1,11 @@
+.main-container {
+  height: 85vh;
+}
+
+.start-button {
+  width: 15rem;
+  height: 5rem;
+  background: rgb(243, 87, 87);
+  color: white;
+  border-radius: 20px;
+}

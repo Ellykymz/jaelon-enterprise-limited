@@ -79,3 +79,32 @@
 .footer-additional p {
   margin-bottom: 5px;
 }
+
+/* HomePage.css */
+
+.company-logo img {
+  width: 200px;
+}
+
+.welcome-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.welcome-section h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  margin-bottom: 10px;
+}
+
+.welcome-section ol {
+  margin-bottom: 20px;
+}
+
+.welcome-section li {
+  margin-bottom: 10px;
+}
