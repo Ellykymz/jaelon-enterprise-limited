@@ -1,5 +1,6 @@
 import HowItWorks from "./Components/HowItWorks/HowItWorks";
 import Main from "./Components/Main";
+import OurOffering from "./Components/OurOffering/OurOffering";
 import Services from "./Components/Services/Services";
 
 const HomePage = () => {
@@ -7,14 +8,9 @@ const HomePage = () => {
     <div>
       <main>
         <Main />
+        <OurOffering />
         <Services />
         <HowItWorks />
-        <div className="welcome-section">
-          <p>
-            If you have any questions or need assistance, please don't hesitate
-            to contact our support team.
-          </p>
-        </div>
       </main>
     </div>
   );
