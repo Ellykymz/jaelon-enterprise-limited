@@ -3,8 +3,8 @@ import "./Services.css";
 function Services() {
   return (
     <section className="container">
-      <div className="s-container flexCenter">
-        <div className="s-wrapper flexCenter">
+      <div className="container-wrapper services">
+        <div className="s-wrapper flexCenter ">
           <div>
             <img src="./" alt="icon" />
             <h4>Hustle Free Loans</h4>

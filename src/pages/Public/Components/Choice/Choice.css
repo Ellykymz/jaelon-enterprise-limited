@@ -1,0 +1,10 @@
+.choice-container {
+  margin-top: 4rem;
+  /* display: none; */
+}
+
+.choice-wrapper {
+  background: #d3d3d3;
+  padding: 2rem;
+  text-align: center;
+}

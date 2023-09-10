@@ -7,9 +7,17 @@
   padding: 1rem;
 }
 
+.s-wrapper {
+  margin-top: 5rem;
+}
+
 .s-wrapper > div {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+}
+
+.services {
+  margin: 0 auto;
 }

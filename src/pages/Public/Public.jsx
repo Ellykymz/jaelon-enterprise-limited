@@ -1,3 +1,4 @@
+import Choice from "./Components/Choice/Choice";
 import HowItWorks from "./Components/HowItWorks/HowItWorks";
 import Main from "./Components/Main";
 import OurOffering from "./Components/OurOffering/OurOffering";
@@ -10,6 +11,7 @@ const HomePage = () => {
         <Main />
         <OurOffering />
         <Services />
+        <Choice />
         <HowItWorks />
       </main>
     </div>

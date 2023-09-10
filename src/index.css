@@ -9,6 +9,9 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .flexColCenter {
   display: flex;
@@ -44,4 +47,12 @@ ol {
 
 img {
   width: 100%;
+}
+
+.container-wrapper {
+  max-width: 1440px;
+}
+
+.container {
+  width: 100vw;
 }
