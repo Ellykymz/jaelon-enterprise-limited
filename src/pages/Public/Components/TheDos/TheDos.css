@@ -1,0 +1,11 @@
+.theDos {
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.theDos-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

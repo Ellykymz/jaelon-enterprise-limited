@@ -2,8 +2,8 @@ import "./Main.css";
 
 function Main() {
   return (
-    <section className="wrapper">
-      <div className="main-container flexColCenter">
+    <section className="container main-container">
+      <div className="container-wrapper main flexCenter">
         <div className="main-wrapper flexColCenter">
           <h1>Welcome to Jaelon Enterprise Limited Loan Management System!</h1>
 

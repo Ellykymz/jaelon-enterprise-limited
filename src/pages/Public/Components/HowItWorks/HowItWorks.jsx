@@ -3,14 +3,14 @@ import "./HowItWorks.css";
 function HowItWorks() {
   return (
     <section className="container">
-      <div className="h-container">
-        <div className="h-wrapper">
+      <div className="container-wrapper how">
+        <div className="how-wrapper">
           <div className="title">
             <h2>How it Works</h2>
             <h3>Transparent and fair costs, with no hidden fees</h3>
           </div>
 
-          <div className="card">
+          <div className="cards">
             <p>
               We're excited to have you on board. To get started, please follow
               the steps below:
@@ -35,6 +35,12 @@ function HowItWorks() {
                   communicate with our team.
                 </li>
               </ol>
+              <div className="welcome-section">
+                <p>
+                  If you have any questions or need assistance, please don't
+                  hesitate to contact our support team.
+                </p>
+              </div>
             </div>
           </div>
         </div>

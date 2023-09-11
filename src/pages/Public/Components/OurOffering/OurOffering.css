@@ -1,0 +1,106 @@
+.offering-left,
+.offering-right {
+  width: 100%;
+  font-weight: 200;
+  font-size: 1.2rem;
+  /* border: 2px solid yellow; */
+}
+
+.offering-container {
+  max-width: 1440px;
+}
+
+.offering-card > ul {
+  padding: 1rem;
+}
+
+.offering-wrapper {
+  display: none;
+  flex: 1;
+}
+
+.offering-left h2 {
+  color: var(--primaryBlue);
+  font-size: 3rem;
+}
+
+.offering-left p,
+.offering-right p {
+  color: var(--primaryBlack);
+  line-height: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.offering-wrapper.flexStart {
+  gap: 4rem;
+  font-weight: 300;
+  justify-content: space-between;
+}
+
+.offering-wrapper.flexCenter {
+  gap: 4rem;
+}
+
+.img-left {
+  margin-top: 2rem;
+}
+
+.offering-right {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  position: relative;
+}
+
+.offering-left {
+  position: relative;
+}
+
+.offering-right::after {
+  content: "Jaelon for Your Business";
+  border: 10px solid var(--primaryYellow);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 65%;
+  left: -6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--primaryBlue);
+  background: white;
+}
+
+.offering-left::after {
+  content: "Jaelon for You";
+  background: white;
+  border: 10px solid var(--primaryBlue);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 59%;
+  left: -6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primaryBlack);
+}
+
+.offering-left ul {
+  list-style: "\1F480";
+}
+
+.offering-right ul {
+  list-style: "\1F480";
+}
+
+.offering-card-li ul {
+  list-style: "";
+}
+
+.ourOffering {
+  margin: 0 auto;
+}
