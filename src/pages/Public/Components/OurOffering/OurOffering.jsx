@@ -1,8 +1,8 @@
 import "./OurOffering.css";
 const OurOffering = () => {
   return (
-    <section className="container flexCenter">
-      <div className="offering-container">
+    <section className="container">
+      <div className="container-wrapper ourOffering">
         <div className="offering-wrapper flexCenter">
           {/* left */}
           <div className="offering-left">

@@ -52,6 +52,10 @@
   position: relative;
 }
 
+.offering-left {
+  position: relative;
+}
+
 .offering-right::after {
   content: "Jaelon for Your Business";
   border: 10px solid var(--primaryYellow);
@@ -60,6 +64,7 @@
   border-radius: 50%;
   position: absolute;
   top: 65%;
+  left: -6%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +81,8 @@
   height: 150px;
   border-radius: 50%;
   position: absolute;
-  top: 160%;
+  top: 59%;
+  left: -6%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,4 +99,8 @@
 
 .offering-card-li ul {
   list-style: "";
+}
+
+.ourOffering {
+  margin: 0 auto;
 }

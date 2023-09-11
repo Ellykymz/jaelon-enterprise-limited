@@ -1,5 +1,5 @@
 .main-container {
-  height: 85vh;
+  background: orange;
 }
 
 .start-button {
@@ -8,4 +8,9 @@
   background: rgb(243, 87, 87);
   color: white;
   border-radius: 20px;
+}
+
+.main {
+  margin: 0 auto;
+  height: 100vh;
 }
