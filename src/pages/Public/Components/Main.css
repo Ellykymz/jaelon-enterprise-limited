@@ -1,5 +1,11 @@
 .main-container {
   background: orange;
+  position: relative;
+}
+.main-card {
+  position: absolute;
+  top: 0%;
+  left: 27%;
 }
 
 .start-button {
@@ -12,5 +18,74 @@
 
 .main {
   margin: 0 auto;
-  height: 100vh;
+  height: 600px;
+  border: 3px solid orange;
+}
+
+.container .main {
+  padding: 0rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.r-card {
+  position: relative;
+}
+
+.r-card img {
+  /* width: 1000px; */
+  /* height: 100%; */
+}
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+}
+
+.card-0 {
+  position: relative;
+
+  background-size: cover;
+}
+.card-0::before {
+  /* content: "";
+  position: absolute;
+  top: 46%;
+  left: -20%;
+  width: 1500px;
+  height: 700px;
+  border: 10rem solid orange;
+  border-radius: 50%; */
+}
+
+.card-0 .first-div {
+  /* position: absolute;
+  width: 700px;
+  height: 700px;
+  top: -10%;
+  right: 0;
+  border-top: 2rem solid transparent;
+  border-bottom: 10rem solid blue;
+  border-radius: 50%;
+  transform: rotate(-20deg); */
+}
+.custom-shape-divider-bottom-1694573726 {
+  position: absolute;
+  bottom: 23%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1694573726 svg {
+  position: relative;
+  display: block;
+  width: calc(191% + 1.3px);
+  height: 299px;
+}
+
+.custom-shape-divider-bottom-1694573726 .shape-fill {
+  fill: #ffa500;
 }

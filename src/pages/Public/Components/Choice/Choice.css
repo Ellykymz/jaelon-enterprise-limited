@@ -1,10 +1,15 @@
 .choice-container {
   margin-top: 4rem;
+  background: url("../../../../assets/layered-waves-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+
   /* display: none; */
 }
 
 .choice-wrapper {
-  background: #d3d3d3;
+  /* background: #d3d3d3; */
   padding: 2rem;
   text-align: center;
 }
