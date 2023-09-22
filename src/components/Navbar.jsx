@@ -1,22 +1,23 @@
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <header className="container">
-      <div className="container-wrapper nav">
+      <div className="container-wrapper-nav">
         <nav className="navbar">
           <div className="navbar-logo">
             <NavLink to="/">
               <img src="/path/to/logo.png" alt="Your Company Logo" />
             </NavLink>
           </div>
+
           <ul className="navbar-menu">
             <li className="navbar-item">
               <NavLink exact to="/" activeClassName="active-link">
                 Home
               </NavLink>
             </li>
-
             <li className="navbar-item">
               <NavLink to="/about" activeClassName="active-link">
                 About
@@ -38,20 +39,22 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-          <ul className="navbar-menu">
-            {/* <li className="navbar-item">
-              <NavLink to="/admin" activeClassName="active-link">
-                Admin
+
+          <ul className="right-menu">
+            <li className="navbar-item">
+              <NavLink to="/join" activeClassName="active-link">
+                JOIN US
               </NavLink>
-            </li> */}
-            {/* <li className="navbar-item">
-              <NavLink to="/worker" activeClassName="active-link">
-                Worker
+            </li>
+            <li className="navbar-item">
+              <NavLink to="/login" activeClassName="active-link">
+                LOGIN
               </NavLink>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </div>
+      <div className="spacer"></div>
     </header>
   );
 };
