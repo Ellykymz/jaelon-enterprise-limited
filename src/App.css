@@ -65,13 +65,14 @@
 /* Footer.css */
 
 .footer {
-  background-color: #f2f2f2;
+  background-color: #333;
   padding: 20px;
   text-align: center;
 }
 
 .footer-content {
   display: flex;
+  color: #fff;
   flex-direction: column;
   align-items: center;
 }
@@ -93,21 +94,48 @@
 
 .footer-item a {
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
 
-.footer-item a:hover {
-  text-decoration: underline;
-}
 
 .footer-additional {
   margin-top: 20px;
+  color: #fff;
 }
 
 .footer-additional p {
   margin-bottom: 5px;
 }
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
+.footer-link:hover {
+  color: #007bff;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 5px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #0056b3;
+}
 /* HomePage.css */
 
 .company-logo img {
