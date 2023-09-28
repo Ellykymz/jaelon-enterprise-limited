@@ -11,7 +11,7 @@ const HomePage = () => {
       <main>
         <Main />
         <OurOffering />
-        <Services />
+        {/* <Services /> */}
         <Choice />
         <HowItWorks />
         <TheDos />

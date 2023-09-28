@@ -1,7 +1,9 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
+  const bars = <FontAwesomeIcon icon={faBars} />;
   return (
     <header className="container">
       <div className="container-wrapper-nav">
@@ -52,6 +54,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+          <div className="icon">{bars}</div>
         </nav>
       </div>
       <div className="spacer"></div>
